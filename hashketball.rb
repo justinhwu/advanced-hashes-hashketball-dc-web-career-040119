@@ -54,6 +54,6 @@ end
 
 def team_names
   game_hash.values.map do |a|
-      return a[:team_name]
+      a[:team_name]
 end
 end
