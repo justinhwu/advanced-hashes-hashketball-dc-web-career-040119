@@ -61,7 +61,7 @@ end
 def player_numbers(team)
   game_hash.values.each do |a|
     if a.has_value?(team)
-    a[:players].map do |b|
+    return a[:players].map do |b|
       b[:number]
     end
   end
