@@ -60,6 +60,7 @@ end
 
 def player_numbers(team)
   game_hash.values.each do |a|
+    if 
     a[:players].each do |b|
       if b.has_value?(team)
       return b[:points] 
