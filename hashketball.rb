@@ -80,7 +80,7 @@ def player_stats(name)
 end
 
 def big_shoe_rebounds
-  
+  shoe = 0
   
   game_hash.values.each do |a|
     a[:players].each do |
