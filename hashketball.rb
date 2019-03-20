@@ -87,4 +87,5 @@ def big_shoe_rebounds
       if b[:shoe] > shoe
         shoe = b[:shoe]
         rebounds = b[:rebounds]
+        return
   
