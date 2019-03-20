@@ -72,5 +72,5 @@ def player_stats(name)
   game_hash.values.each do |a|
     a[:players].each do |b|
       if b.has_value?(name)
-        
+        b.delete(:name)
 end
