@@ -73,5 +73,8 @@ def player_stats(name)
     a[:players].each do |b|
       if b.has_value?(name)
         b.delete(:name)
-        
+        return b
+      end
+    end
+  end
 end
