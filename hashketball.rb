@@ -61,7 +61,7 @@ end
 def player_numbers(team)
   game_hash.values.each do |a|
     a[:players].each do |b|
-      if b.has_value?(name)
+      if b.has_value?(team)
       return b[:points] 
     end
   end
